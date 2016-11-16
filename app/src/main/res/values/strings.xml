@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">ListViewYActionBar</string>
+    <string name="acercade">Acerca de...</string>
+    <string name="restablecer">Restablecer</string>
+    <string name="anyadir">Añadir</string>
 </resources>

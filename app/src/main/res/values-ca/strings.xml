@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ListViewYActionBar</string>
+    <string name="acercade">Cerca de</string>
+    <string name="anyadir">Afegir</string>
+    <string name="restablecer">Resablir</string>
+</resources>
