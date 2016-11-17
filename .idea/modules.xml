@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/ListViewYActionBar.iml" filepath="$PROJECT_DIR$/ListViewYActionBar.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/listviewactionbar.iml" filepath="$PROJECT_DIR$/listviewactionbar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/listviewactionbarCopia.iml" filepath="$PROJECT_DIR$/listviewactionbarCopia.iml" />
     </modules>
   </component>
 </project>

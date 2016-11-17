@@ -21,11 +21,9 @@ public class MainActivity extends ListActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-
-        adaptador = new ArrayAdapter<String>(
-                this, android.R.layout.simple_list_item_1,primerasLetras());
-        setListAdapter(adaptador);
+       super.onCreate(savedInstanceState);
+       getActionBar().setDisplayShowHomeEnabled(true);
+       inicializarAdapter();
     }
     @Override
     public boolean onOptionsItemSelected(MenuItem item){
@@ -36,9 +34,7 @@ public class MainActivity extends ListActivity {
                 }
                 break;
             case R.id.reset:
-                adaptador = new ArrayAdapter<String>(
-                        this, android.R.layout.simple_list_item_1,primerasLetras());
-                setListAdapter(adaptador);
+                inicializarAdapter();
                 break;
             case R.id.acercade:
                 Toast.makeText(this, "Estamos introduciendo palabras al arrayAdapter"
@@ -61,6 +57,11 @@ public class MainActivity extends ListActivity {
         adaptador.add(cadena);
     }
 
+    public void inicializarAdapter(){
+        adaptador = new ArrayAdapter<String>(
+                this, android.R.layout.simple_list_item_1,primerasLetras());
+        setListAdapter(adaptador);
+    }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.menu_main, menu);
